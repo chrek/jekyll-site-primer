@@ -1,0 +1,8 @@
+I"y<h2 id="jekyll-and-primer-css">Jekyll and Primer CSS</h2>
+
+<h3 id="primer-css-structure">Primer CSS Structure</h3>
+
+<p>Primer CSS is published to npm as <code class="highlighter-rouge">@primer/css</code>. Each of Primer CSS’s “modules” lives in a subfolder under src/ with an index.scss in it.</p>
+
+<p><a href="https://primer.style/css/#Structure">Source: primer</a></p>
+:ET

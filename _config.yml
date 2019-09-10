@@ -1,0 +1,10 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+sass:
+  # Where you keep your scss files
+  #sass_dir: assets/css/
+  # Where sass should look for other scss
+  load_paths:
+    - node_modules/

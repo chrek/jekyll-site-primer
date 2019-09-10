@@ -1,0 +1,14 @@
+{
+  "name": "jekyll-site-primer",
+  "version": "1.0.0",
+  "description": "Jekyll site with Primer CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chrek <chrekonweb@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@primer/css": "^12.7.0"
+  }
+}
