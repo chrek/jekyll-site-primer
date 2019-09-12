@@ -1,7 +1,11 @@
 ---
 ---
 @import "main";
+@import 'css/custom/variables.scss';
+@import 'css/custom/includes/intro.scss';
 @import "css/custom/includes/form";
-
+@import "css/custom/includes/header";
+@import 'css/custom/includes/social_links';
 @import '@primer/css/core/index.scss';
-@import '@primer/css/core/custom/variables.scss';
+
+@import '@primer/octicons/index.scss';

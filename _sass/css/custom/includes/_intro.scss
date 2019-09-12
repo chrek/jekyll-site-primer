@@ -1,0 +1,18 @@
+.intro {
+  width: 75%;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+
+mark {
+  background: yellow;
+  color: black;
+}
+
+.foo {
+  background: $bg-red;
+  font-size: $h2-size;
+  //color: $text-gray;
+  color: $info !important;
+}

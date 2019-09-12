@@ -1,0 +1,35 @@
+<nav class="UnderlineNav">
+  <div class="UnderlineNav-body">
+    <a href="{{ site.baseurl }}/" class="UnderlineNav-item selected"
+      ><h3>Jekyll and Primer CSS</h3></a
+    >
+    <a href="{{ site.baseurl }}/" class="UnderlineNav-item"><h4>Home</h4></a>
+    <a href="{{ site.baseurl }}/archive" class="UnderlineNav-item"
+      ><h4>Archive</h4></a
+    >
+    <a href="{{ site.baseurl }}/about" class="UnderlineNav-item"
+      ><h4>About</h4></a
+    >
+  </div>
+
+  <div class="UnderlineNav-body UnderlineNav--right">
+    <a
+      href="#url"
+      role="tab"
+      title="Item 1"
+      class="UnderlineNav-item"
+      aria-current="page"
+    >
+      {% include primer/icon-twitter.svg %}
+    </a>
+    <a
+      href="https://github.com/chrek/jekyll-site-primer"
+      role="tab"
+      title="Item 1"
+      class="UnderlineNav-item"
+      aria-current="page"
+    >
+      {% include primer/mark-github.svg %}
+    </a>
+  </div>
+</nav>

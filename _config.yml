@@ -8,3 +8,11 @@ sass:
   # Where sass should look for other scss
   load_paths:
     - node_modules/
+
+# Social icons
+show_social_icons: true
+github_username: chrek
+twitter_username: someTwitterUser
+
+#gems:
+#  - jekyll-octicons
