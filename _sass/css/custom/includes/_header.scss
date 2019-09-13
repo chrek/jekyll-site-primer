@@ -10,7 +10,18 @@
 
 .UnderlineNav-item {
     color: $info !important;
-    &:hover {
-        color: white !important;
+    svg {
+        fill: $info !important;
     }
+    &:hover {
+        color:white !important;
+
+    }
+    svg path {
+      &:hover {
+        color: $info;
+        cursor: pointer;
+        fill: black;
+      }
+    }    
 }

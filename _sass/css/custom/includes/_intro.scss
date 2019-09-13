@@ -1,8 +1,20 @@
 .intro {
-  width: 75%;
+  width: 80%;
   border-radius: 5px;
-  padding: 20px;
+  padding: 0 20px 20px;
   background-color: white;
+  margin: 10px 0 0px 0;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    //color: $primary;
+    color: $bg-red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    //margin-left: 10px;
+  }
 }
 
 mark {
@@ -15,4 +27,31 @@ mark {
   font-size: $h2-size;
   //color: $text-gray;
   color: $info !important;
+}
+
+ol {
+  //background: #ff9999;
+  list-style: none;
+  counter-reset: item;
+  background: $bg-red;
+  padding: 20px;
+}
+ol li {
+  counter-increment: item;
+  margin-bottom: 5px;
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 20px;
+  //margin-right: 10px;
+}
+ol li:before {
+  //margin-right: 10px;
+  content: counter(item);
+  background: $bg-red;
+  border-radius: 100%;
+  color: white;
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
 }

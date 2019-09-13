@@ -1,0 +1,38 @@
+.indexmd {
+  width: 75%;
+  padding-top: 10px;
+  margin-left: 10px;
+  h1,
+  h2,
+  h3,
+  h4 {
+    //color: $primary;
+    color: $bg-red;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+
+  p {
+    color: #685206;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0 12px 10px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  a {
+    color: blue;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+
+    &:hover {
+      color: black;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+}

@@ -12,6 +12,7 @@ sass:
 # Social icons
 show_social_icons: true
 github_username: chrek
+email: chrek@ymail.com
 twitter_username: someTwitterUser
 
 #gems:

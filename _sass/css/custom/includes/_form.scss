@@ -1,8 +1,27 @@
-input[type="text"],
-select {
+.frmdiv {
+  width: 76%;
+  border-radius: 5px;
+  //background-color: #f2f2f2;
+  background-color: $bg-red;
+  color: $info;
+  padding: 20px;
+  margin: 0 0 24px 20px;
+}
+
+input[type="text"] {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 6px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 4px 0 16px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -13,10 +32,8 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-.frmdiv {
-  width: 75%;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
 
+
+label {
+  margin: 8px 0 4px;
+}
